@@ -1,3 +1,12 @@
+GIT
+  remote: https://github.com/dry-rb/dry-rails.git
+  revision: 66bc37e68d554c28cc581d080cf1819b718df555
+  specs:
+    dry-rails (0.7.0)
+      dry-schema (~> 1.7)
+      dry-system (~> 1.0, < 2)
+      dry-validation (~> 1.5)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -102,10 +111,6 @@ GEM
       concurrent-ruby (~> 1.0)
       dry-core (~> 1.0, < 2)
       zeitwerk (~> 2.6)
-    dry-rails (0.7.0)
-      dry-schema (~> 1.7)
-      dry-system (~> 1.0, < 2)
-      dry-validation (~> 1.5)
     dry-schema (1.13.3)
       concurrent-ruby (~> 1.0)
       dry-configurable (~> 1.0, >= 1.0.1)
@@ -245,7 +250,7 @@ PLATFORMS
 
 DEPENDENCIES
   debug
-  dry-rails (~> 0.7.0)
+  dry-rails!
   error_highlight (>= 0.4.0)
   puma (>= 5.0)
   rails (~> 7.1.1)

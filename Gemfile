@@ -30,4 +30,4 @@ group :development do
 end
 
 
-gem "dry-rails", "~> 0.7.0"
+gem "dry-rails", github: "dry-rb/dry-rails"
